@@ -235,7 +235,12 @@ section {
   padding: 100px 0;
 }
 section h2 {
-  font-size: 50px;
+  font-size: 40px;
+}
+@media (min-width: 768px) {
+  section h2 {
+    font-size: 50px;
+  }
 }
 section.about {
   margin-top: 40px;
