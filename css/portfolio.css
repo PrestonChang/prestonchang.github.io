@@ -278,7 +278,7 @@ section.about .badges .badge-link img {
   }
 }
 section.work {
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 0px;
   position: relative;
   text-align: center;
@@ -549,7 +549,7 @@ body {
 }
 
 .about .skills {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .skills button {
@@ -569,6 +569,7 @@ body {
 }
 
 .profile-image {
+  border-radius:50%;
   margin-top: 20px;
   width: 100%;
   padding-right: 10px;
@@ -660,6 +661,10 @@ body {
     text-align: left;
   }
 
+  .about .skills {
+    margin-top: 100px;
+  }
+
   .optigo-image {
     max-width: 140%;
   }
@@ -674,6 +679,7 @@ body {
 
   section.work {
     text-align: left;
+    padding-top: 100px;
   }
 
   section.about hr {
