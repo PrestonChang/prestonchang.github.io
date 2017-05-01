@@ -59,6 +59,8 @@ p {
   font-size: 17px;
   line-height: 1.5;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 li {
   font-size: 18px;
@@ -240,10 +242,14 @@ section.about {
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
+  text-align: center;
 }
 section.about h2 {
   margin-top: 0;
   font-size: 50px;
+}
+section.about hr {
+  margin: auto;
 }
 section.about .badges .badge-link {
   display: block;
@@ -270,10 +276,14 @@ section.work {
   padding-top: 100px;
   padding-bottom: 0px;
   position: relative;
+  text-align: center;
 }
 section.work h2 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 40px;
+}
+section.work hr {
+  margin: auto;
 }
 section.work .badges .badge-link {
   display: block;
@@ -517,11 +527,12 @@ body {
 }
 
 .header .section-heading {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .header-text {
-  margin-top: 200px;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .about .section-heading {
@@ -548,9 +559,15 @@ body {
   background-color: #e60000
 }
 
+.skills ul {
+  padding-left: 0px;
+}
+
 .profile-image {
   margin-top: 20px;
   width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .work-experience-title {
@@ -584,10 +601,24 @@ body {
   margin-right: 350px;
 }
 
+.email {
+  margin-top: 20px;
+}
+
 .email a {
   color: #333;
 }
 
+.ecowaterless-image {
+  padding:1px; 
+  background: lightgrey
+}
+
+.gr-image {
+  padding:1px; 
+  background: lightgrey
+}
+ 
 .carousel-indicators li {
   /*background-color: #999;
   background-color: rgba(70,70,70,.25);*/
@@ -597,6 +628,61 @@ body {
 .carousel-indicators .active {
   background-color: grey;
 }
+
+
+@media screen and (min-width: 480px) {
+
+  .header-text {
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .header .section-heading {
+    font-size: 40px;
+  }
+
+  p {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .profile-image {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  section.about {
+    text-align: left;
+  }
+
+  .optigo-image {
+    max-width: 140%;
+  }
+
+  .ecowaterless-image {
+    max-width: 130%;
+  }
+
+  .gr-image {
+    max-width: 135%;
+  }
+
+  section.work {
+    text-align: left;
+  }
+
+  section.about hr {
+    margin: initial;
+  }
+
+  .job hr {
+    margin: initial !important;
+  }
+
+
+    
+}
+
 
 
 
