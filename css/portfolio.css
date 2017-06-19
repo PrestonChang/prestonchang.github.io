@@ -308,7 +308,7 @@ section.work .badges .badge-link img {
 }
 @media (min-width: 768px) {
   section.work h2 {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 section.features .section-heading {
@@ -689,6 +689,9 @@ body {
   .job hr {
     margin: initial !important;
   }
+
+
+
 
 
     
