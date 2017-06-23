@@ -51,5 +51,20 @@ $(document).ready(function() {
         }); 
     
     });
+
+    $("#expand").click(function(){
+        $("#more-images").slideToggle(500);
+        $(this).hide();
+        $("#collapse").show();
+    });
+
+    $("#collapse").click(function(){
+        $("#more-images").slideToggle(500);
+        $(this).hide();
+        $("#expand").show();
+        $('html, body').animate({
+            scrollTop: $(".ecowaterless-title").offset().top
+        }, 1000);
+    });
     
 });

@@ -553,15 +553,17 @@ body {
 }
 
 .skills button {
-  color: white;
-  background-color: #ff6666;
+  color: #ff6666;
+  background-color: white;
+  border-color: #ff6666;
   margin-bottom: 20px;
+  cursor: default
 }
 
 .skills button:hover {
   /*pointer-events: none;*/
   color: white;
-  background-color: #e60000
+  background-color: #ff6666
 }
 
 .skills ul {
@@ -690,11 +692,24 @@ body {
     margin: initial !important;
   }
 
+  #more-images {
+      padding-top: 50px;
+      display: none;
+  }
 
+  #collapse {
+      display: none;
+  }
 
+  #expand i {
+    color: #ff6666;
+  }
 
+  #expand i:hover {
+    color: white;
+    background-color: #ff6666;
+  }
 
-    
 }
 
 
