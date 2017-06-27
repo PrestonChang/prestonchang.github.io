@@ -63,7 +63,7 @@ $(document).ready(function() {
         $(this).hide();
         $("#expand").show();
         $('html, body').animate({
-            scrollTop: $(".ecowaterless-title").offset().top
+            scrollTop: $(".ecowaterless-title").offset().top - 50
         }, 1000);
     });
     

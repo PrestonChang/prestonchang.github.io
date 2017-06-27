@@ -688,6 +688,10 @@ body {
     margin: initial;
   }
 
+  .job {
+    margin-top: 100px;
+  }
+
   .job hr {
     margin: initial !important;
   }
@@ -701,17 +705,12 @@ body {
       display: none;
   }
 
-  #expand i {
+  .job i {
+    color: #cccccc;
+  }
+
+  .job i:hover {
     color: #ff6666;
   }
 
-  #expand i:hover {
-    color: white;
-    background-color: #ff6666;
-  }
-
 }
-
-
-
-
