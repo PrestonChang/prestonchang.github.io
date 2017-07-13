@@ -32,26 +32,7 @@
 
 $(document).ready(function() {
     
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.hidden-element').each( function(i){
-            
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},1000);
-                    
-            }
-            
-        }); 
-    
-    });
-
+    //More images control
     $("#expand").click(function(){
         $("#more-images").slideToggle(500);
         $(this).hide();
@@ -66,5 +47,23 @@ $(document).ready(function() {
             scrollTop: $(".ecowaterless-title").offset().top - 50
         }, 1000);
     });
+
+
+     // Initialize ScrollReveal
+    window.sr = ScrollReveal();
+
+    // Customizing reveal sets
+    sr.reveal('.optigo-image', { 
+        origin: "right",
+        duration: 1000,
+        delay: 0 });
+
+    sr.reveal('.main-ecowaterless-image', { 
+        duration: 1000 });
+
+
+    sr.reveal('.gr-image', { 
+            origin: "right",
+            duration: 1000 });
     
 });

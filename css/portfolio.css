@@ -542,6 +542,7 @@ body {
 
 .about .section-heading {
   font-size: 40px;
+  margin-top: 20px;
 }
 
 .education {
@@ -568,6 +569,10 @@ body {
 
 .skills ul {
   padding-left: 0px;
+}
+
+.skills h3 {
+  margin-bottom: 25px;
 }
 
 .profile-image {
@@ -622,6 +627,10 @@ body {
   background: lightgrey
 }
 
+.ecowaterless-title {
+  margin-bottom: 20px;
+}
+
 .gr-image {
   padding:1px; 
   background: lightgrey
@@ -664,7 +673,7 @@ body {
   }
 
   .about .skills {
-    margin-top: 100px;
+    margin-top: 90px;
   }
 
   .optigo-image {
@@ -697,12 +706,20 @@ body {
   }
 
   #more-images {
-      padding-top: 50px;
-      display: none;
+    padding-top: 30px;
+    display: none;
+  }
+
+  #more-images img {
+    margin-bottom: 30px;
+  }
+
+  #expand {
+    margin-top: 20px;
   }
 
   #collapse {
-      display: none;
+    display: none;
   }
 
   .job i {
@@ -714,3 +731,15 @@ body {
   }
 
 }
+
+  @media (min-width: 1440px) {
+    .container {
+      width: 1280px;
+    }
+  }
+
+  @media (min-width: 1800px) {
+    .container {
+      width: 1600px;
+    }
+  }
