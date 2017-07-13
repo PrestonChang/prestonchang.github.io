@@ -579,8 +579,8 @@ body {
   border-radius:50%;
   margin-top: 20px;
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .work-experience-title {
@@ -647,7 +647,7 @@ body {
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 992px) {
 
   .header-text {
     margin-top: 200px;
@@ -701,6 +701,10 @@ body {
     margin-top: 100px;
   }
 
+  .ecowaterless {
+    margin-top: 80px;
+  }
+
   .job hr {
     margin: initial !important;
   }
@@ -732,14 +736,76 @@ body {
 
 }
 
-  @media (min-width: 1440px) {
-    .container {
-      width: 1280px;
-    }
+.optigo-image {
+  display: none;
+}
+
+.ecowaterless-image {
+  display: none;
+}
+
+.gr-image {
+  display: none;
+}
+
+#expand {
+  display: none;
+}
+
+#collapse {
+  display: none;
+}
+
+/*@media (min-width: 380px) {
+  .optigo-image {
+    display: none;
   }
 
-  @media (min-width: 1800px) {
-    .container {
-      width: 1600px;
-    }
+  .ecowaterless-image {
+    display: none;
   }
+
+  .gr-image {
+    display: none;
+  }
+
+  #expand {
+    display: none;
+  }
+
+  #collapse {
+    display: none;
+  }
+
+}*/
+
+@media (min-width: 992px) {
+  .optigo-image {
+    display: initial;
+  }
+
+  .ecowaterless-image {
+    display: initial;
+  }
+
+  .gr-image {
+    display: initial;
+  }
+
+  #expand {
+    display: initial;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    width: 1600px;
+  }
+}
