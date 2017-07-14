@@ -709,10 +709,12 @@ body {
 
   #expand {
     margin-top: 20px;
+    cursor: pointer;
   }
 
   #collapse {
     display: none;
+    cursor: pointer;
   }
 
   .job i {
