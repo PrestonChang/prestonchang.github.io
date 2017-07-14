@@ -635,17 +635,6 @@ body {
   padding:1px; 
   background: lightgrey
 }
- 
-.carousel-indicators li {
-  /*background-color: #999;
-  background-color: rgba(70,70,70,.25);*/
-  border-color: grey;
-}
-
-.carousel-indicators .active {
-  background-color: grey;
-}
-
 
 @media screen and (min-width: 992px) {
 
@@ -755,29 +744,6 @@ body {
 #collapse {
   display: none;
 }
-
-/*@media (min-width: 380px) {
-  .optigo-image {
-    display: none;
-  }
-
-  .ecowaterless-image {
-    display: none;
-  }
-
-  .gr-image {
-    display: none;
-  }
-
-  #expand {
-    display: none;
-  }
-
-  #collapse {
-    display: none;
-  }
-
-}*/
 
 @media (min-width: 992px) {
   .optigo-image {
