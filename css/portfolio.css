@@ -631,6 +631,8 @@ body {
   margin-bottom: 20px;
 }
 
+
+
 .gr-image {
   padding:1px; 
   background: lightgrey
@@ -741,6 +743,12 @@ body {
 
 #expand {
   display: none;
+}
+
+.expand button {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
 }
 
 #collapse {

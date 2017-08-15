@@ -34,13 +34,13 @@ $(document).ready(function() {
     
     //More images control
     $("#expand").click(function(){
-        $("#more-images").slideToggle(500);
+        $("#more-images").fadeToggle(1000);
         $(this).hide();
         $("#collapse").show();
     });
 
     $("#collapse").click(function(){
-        $("#more-images").slideToggle(500);
+        $("#more-images").fadeToggle(500);
         $(this).hide();
         $("#expand").show();
         $('html, body').animate({
