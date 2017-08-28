@@ -34,7 +34,7 @@ $(document).ready(function() {
     
     //More images control
     $("#expand").click(function(){
-        $("#more-images").fadeToggle(1200);
+        $("#more-images").fadeToggle(1300);
         $(this).hide();
         $("#collapse").show();
     });
