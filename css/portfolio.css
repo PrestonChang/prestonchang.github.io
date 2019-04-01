@@ -788,6 +788,13 @@ body {
   .header-text {
     margin-top: 250px;
   }
+  .ecowaterless {
+    margin-left: 50px;
+  }
+  .expand button {
+    margin-left: 45px;
+  }
+
 }
 
 @media (min-width: 1800px) {
