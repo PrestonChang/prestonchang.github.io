@@ -575,6 +575,16 @@ body {
   margin-bottom: 25px;
 }
 
+.skills-left {
+  margin-top: 25px;
+}
+
+.skills-left > .col-md-5,
+.skills-left > .col-md-6 {
+    padding-left: 0px;
+}
+
+
 .profile-image {
   border-radius:50%;
   margin-top: 20px;
