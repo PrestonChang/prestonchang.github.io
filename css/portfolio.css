@@ -280,7 +280,7 @@ section.work {
   padding-top: 40px;
   padding-bottom: 0px;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 section.work h2 {
   margin-top: 0;
@@ -584,7 +584,6 @@ body {
     padding-left: 0px;
 }
 
-
 .profile-image {
   border-radius:50%;
   margin-top: 20px;
@@ -632,12 +631,14 @@ body {
   color: #333;
 }
 
-.ecowaterless-image {
+.ecowaterless-image
+.thoughtfarmer-image {
   padding:1px; 
   background: lightgrey
 }
 
-.ecowaterless-title {
+.ecowaterless-title,
+.thoughtfarmer-title {
   margin-bottom: 20px;
 }
 
@@ -680,17 +681,13 @@ body {
     max-width: 140%;
   }
 
-  .ecowaterless-image {
+  .ecowaterless-image,
+  .thoughtfarmer-image {
     max-width: 130%;
   }
 
   .gr-image {
     max-width: 135%;
-  }
-
-  section.work {
-    text-align: left;
-    padding-top: 80px;
   }
 
   section.about hr {
@@ -746,14 +743,9 @@ body {
 
 }
 
-.optigo-image {
-  display: none;
-}
-
-.ecowaterless-image {
-  display: none;
-}
-
+.thoughtfarmer-image,
+.ecowaoptigoterless-image,
+.ecowaterless-image,
 .gr-image {
   display: none;
 }
@@ -773,14 +765,9 @@ body {
 }
 
 @media (min-width: 992px) {
-  .optigo-image {
-    display: initial;
-  }
-
-  .ecowaterless-image {
-    display: initial;
-  }
-
+  .thoughtfarmer-image,
+  .ecowaoptigoterless-image,
+  .ecowaterless-image,
   .gr-image {
     display: initial;
   }
@@ -798,7 +785,8 @@ body {
   .header-text {
     margin-top: 250px;
   }
-  .ecowaterless {
+  .ecowaterless
+  .thoughtfarmer {
     margin-left: 50px;
   }
   .expand button {
